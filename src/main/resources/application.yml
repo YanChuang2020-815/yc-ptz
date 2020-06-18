@@ -1,0 +1,4 @@
+server:
+  port: 8878
+rocketmq:
+  name-server: 123.56.46.27:9876
