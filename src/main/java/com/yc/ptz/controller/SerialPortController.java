@@ -22,12 +22,13 @@ public class SerialPortController {
 
     @GetMapping("/open")
     public void openSerialPort() {
-        serialPortService.openSerialPort("COM3");
+        serialPortService.openSerialPort("COM4");
     }
 
     @GetMapping("/close")
     public void closeSerialPort() {
         serialPortService.closeSerialPort();
+        log.info("串口已关闭");
     }
 
 
